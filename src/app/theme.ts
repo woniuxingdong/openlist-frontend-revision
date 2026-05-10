@@ -137,8 +137,8 @@ const theme: HopeThemeConfig = {
     Anchor: {
       baseStyle: {
         rounded: "$lg",
-        px: "$1_5",
-        py: "$1",
+        px: "$3",
+        py: "$2",
         _hover: {
           bgColor: hoverColor(),
           textDecoration: "none",

@@ -1,7 +1,7 @@
 {
   "sidemenu": {
     "dashboard": "Dashboard",
-    "settings": "Settings",
+    "settings": "Configurations",
     "site": "Site",
     "style": "Style",
     "preview": "Preview",
@@ -29,7 +29,7 @@
     "ftp": "FTP",
     "traffic": "Traffic"
   },
-  "title": "OpenList Management",
+  "title": "Setting",
   "not_admin": "You are not an admin user, please login with an admin account.",
   "logout_success": "Logout successful",
   "send": "Send",

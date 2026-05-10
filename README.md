@@ -1,10 +1,8 @@
-# OpenList (frontend)
+# Customized OpenList frontend
 
 ![License MIT](https://img.shields.io/badge/license-MIT-green)
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/OpenListTeam/OpenList-Frontend)](./package.json)
-[![NPM Version](https://img.shields.io/npm/v/%40openlist-frontend%2Fopenlist-frontend)](https://www.npmjs.com/package/@openlist-frontend/openlist-frontend)
-[![NPM Downloads](https://img.shields.io/npm/dw/%40openlist-frontend%2Fopenlist-frontend)](https://www.npmjs.com/package/@openlist-frontend/openlist-frontend)
-[![NPM Last Update](https://img.shields.io/npm/last-update/%40openlist-frontend%2Fopenlist-frontend)](https://www.npmjs.com/package/@openlist-frontend/openlist-frontend)
+
+Based on OpenList frontend of version 4.2.1.
 
 ## BUILD
 
@@ -29,10 +27,7 @@ Environment variables:
   OPENLIST_FRONTEND_BUILD_SKIP_I18N=true|false (default: false)
 ```
 
-## LICENSE
+## References
 
-MIT
-
-## CREDITS
-
-[OpenList](https://github.com/OpenListTeam/OpenList) is a resilient, community-driven fork of [AList](https://github.com/AlistGo/alist) — built to defend open source against trust-based attacks.
+[OpenList](https://github.com/OpenListTeam/OpenList)
+[OpenList frontend](https://github.com/OpenListTeam/OpenList-frontend)

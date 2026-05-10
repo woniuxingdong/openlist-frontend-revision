@@ -1,12 +1,8 @@
 {
-  "name": "@openlist-frontend/openlist-frontend",
-  "version": "4.2.1",
+  "name": "@openlist-frontend/openlist-frontend-revision",
+  "version": "0.0.0",
   "type": "module",
-  "author": {
-    "name": "The OpenList Projects Contributors",
-    "url": "https://github.com/OpenListTeam"
-  },
-  "description": "A new AList Fork to Anti Trust Crisis",
+  "description": "Modify the forked OpenList UI",
   "packageManager": "pnpm@10.33.0",
   "repository": {
     "type": "git",
@@ -18,7 +14,6 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://openlist.team/",
   "scripts": {
     "crowdin:upload": "crowdin upload sources --auto-update",
     "crowdin:download": "crowdin download --verbose",

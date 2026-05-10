@@ -1,4 +1,11 @@
-import { Box, Center, Flex, HStack, useColorModeValue } from "@hope-ui/solid"
+import {
+  Box,
+  Center,
+  Divider,
+  Flex,
+  HStack,
+  useColorModeValue,
+} from "@hope-ui/solid"
 import { FullLoading, SwitchColorMode, SwitchLanguageWhite } from "~/components"
 import { useT, useTitle } from "~/hooks"
 import { Header } from "./Header"
@@ -30,8 +37,9 @@ const Manage = () => {
           overflowY="auto"
         >
           <SideMenu items={side_menu_items} />
+          <Divider />
           <Center>
-            <HStack spacing="$4" p="$2" color="$neutral11">
+            <HStack spacing="$4" pt="$5" p="$2" color="$neutral11">
               <SwitchLanguageWhite />
               <SwitchColorMode />
             </HStack>

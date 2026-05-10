@@ -15,7 +15,13 @@ import {
   useColorModeValue,
 } from "@hope-ui/solid"
 import { TiThMenu } from "solid-icons/ti"
-import { IoExit } from "solid-icons/io"
+import {
+  IoExit,
+  IoExitOutline,
+  IoHome,
+  IoHomeOutline,
+  IoHomeSharp,
+} from "solid-icons/io"
 import { SwitchColorMode, SwitchLanguageWhite } from "~/components"
 import { useFetch, useRouter, useT } from "~/hooks"
 import { SideMenu } from "./SideMenu"
@@ -37,6 +43,11 @@ const Header = () => {
       to(`/@login?redirect=${encodeURIComponent(location.pathname)}`)
     })
   }
+
+  const goHome = async () => {
+    to("/")
+  }
+
   return (
     <Box
       as="header"
@@ -73,11 +84,17 @@ const Header = () => {
         </HStack>
         <HStack spacing="$1">
           <IconButton
+            aria-label="home"
+            icon={<IoHomeOutline />}
+            onClick={goHome}
+            size="md"
+          />
+          <IconButton
             aria-label="logout"
-            icon={<IoExit />}
+            icon={<IoExitOutline />}
             loading={logOutReqLoading()}
             onClick={logOut}
-            size="sm"
+            size="md"
           />
         </HStack>
       </Flex>
